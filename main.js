@@ -28,7 +28,6 @@ let scene = new ScrollMagic.Scene({
     duration:400,
     triggerHook:0.6
   })
-  .addIndicators()
   .setTween(tlpercentage)
   .addTo(controller);
 
@@ -37,7 +36,6 @@ let scene = new ScrollMagic.Scene({
       triggerHook:0.8,
       reverse: false
     })
-    .addIndicators()
     .setClassToggle('.sec2-h1','fade-in-h1')
     .addTo(controller);
 
@@ -47,7 +45,6 @@ let scene = new ScrollMagic.Scene({
           triggerHook:0.85,
           reverse:false
         })
-        .addIndicators()
         .setClassToggle(this,'fade-in-article')
         .addTo(controller);
     })
@@ -57,7 +54,6 @@ let scene = new ScrollMagic.Scene({
           triggerHook:0.8,
           reverse:false
         })
-        .addIndicators()
         .setClassToggle(this,'fade-in-item')
         .addTo(controller);
     })
