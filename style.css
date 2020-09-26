@@ -4,6 +4,10 @@
   box-sizing:border-box;
   font-family:"helvetica","Arial",sans-serif;
 }
+*::selection{
+  background: black;
+  color:white;
+}
 body{
   background-color:hsl(0,0%,92%);
 }
@@ -124,6 +128,7 @@ section{
   position:relative;
 }
 .div-secnr3{
+  user-select: none;
   position:absolute;
   width:100%;
   top:50%;
